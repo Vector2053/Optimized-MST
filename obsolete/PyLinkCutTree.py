@@ -3,7 +3,7 @@ from typing import Union, Optional, Tuple
 
 import numpy as np
 
-from lct_mode import lct
+from obsolete.lct_mode import lct
 
 
 def _serialize(obj: Union[float, str, Tuple, np.int64, np.float64]) -> str:
