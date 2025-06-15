@@ -1,0 +1,19 @@
+from __future__ import annotations
+import typing
+__all__ = ['InvalidArgument', 'LinkCutTree_Mode']
+class InvalidArgument(Exception):
+    pass
+class LinkCutTree_Mode:
+    @staticmethod
+    def _pybind11_conduit_v1_(*args, **kwargs):
+        ...
+    def __init__(self) -> None:
+        ...
+    def cut(self, arg0: str, arg1: str) -> None:
+        ...
+    def get_max_edge(self, arg0: str, arg1: str) -> tuple[tuple[str | None, str | None], float | None]:
+        ...
+    def is_connection(self, arg0: str, arg1: str) -> bool:
+        ...
+    def link(self, arg0: str, arg1: str, arg2: float) -> None:
+        ...
